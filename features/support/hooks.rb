@@ -6,6 +6,5 @@
 include Capybara::DSL
 
 After('@logout') do
-    find('.navbar a[href*=dropdown]').click
-    find('.navbar a[href$=logout]')
+  Navbar.new.sair
 end
