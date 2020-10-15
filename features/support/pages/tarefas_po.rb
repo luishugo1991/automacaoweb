@@ -15,7 +15,7 @@ class TarefasPage
       within('#add-task-view')do
       fill_in 'title',	with: nome
       fill_in 'dueDate',	with: data_f
-      click_button 'Cadastrar'
+      click_on 'Cadastrar'
     end
 
     def alerta
