@@ -12,5 +12,4 @@ class LoginPage
     def alerta
       find('.alert-login')
     end
-
 end
